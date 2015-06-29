@@ -1,0 +1,138 @@
+/* 
+    Document   : custom
+    Created on : 18.03.2014, 01:59:44
+    Author     : Michal Tuleja <michal.tuleja@outlook.com>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#task-list tr {
+    font-size: 16pt;
+}
+
+.task-checkbox {
+    width: 24px;
+    height: 24px;
+}
+
+.hidden {
+	visibility:collapse;
+}
+
+.hidden-container {
+	display:none;
+}
+
+.align-right {
+	float:right;
+	
+}
+
+.right-inner-addon {
+    position: relative;
+	display: table;
+	border-collapse: separate;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.left-inner-addon {
+    position: relative;
+	display: table;
+	border-collapse: separate;
+}
+.left-inner-addon input {
+    padding-left: 35px;    
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.width-full {
+	width: 100%;
+}
+
+.panel-group .panel + .panel {
+    margin-top: 0px;
+}
+
+.task-done {
+  background-color: #5DE100;
+}
+
+.task-list-header {
+	background-color: #F5F5F5;
+	color: #333;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	padding: 10px 15px;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+	line-height: 20px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.task-list-title {
+	color: #333;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 17.6px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	-moz-box-sizing: border-box;
+}
+
+.task-list-desc {
+	background-color: #FFF;
+	color: #333;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.task-list-body {
+	background-color: #FFF;
+	color: #333;
+}
+
+.task-list-desc.collapse {
+	display: none;
+}
+
+.task-list-desc.collapse.in {
+	display: table-cell;
+}
+
+.task-list-desc.collapsing {
+	position: relative;
+	height: 0;
+	overflow: hidden;
+	-moz-transition: height .35s; /* Firefox 4 */
+	-o-transition: height .35s; /* Opera */
+	-webkit-transition: height .35s ease;
+	transition: height .35s ease;
+}
+
+.table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > td {
+    padding: 10px;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857;
+	vertical-align: middle;
+    border-top: 1px solid #DDD;
+}

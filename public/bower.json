@@ -1,0 +1,14 @@
+{
+  "name": "DatabaseProject",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.1",
+  "homepage": "https://github.com.invalid/MichalTuleja/database-project",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.1",
+    "angular-mocks": "~1.4.1",
+    "bootstrap": "~3.3.5",
+    "angular-route": "~1.4.1"
+  }
+}
