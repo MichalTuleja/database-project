@@ -67,7 +67,7 @@ app.use(cookieParser());
 //app.use(databaseMiddleware);
 
 //Auth middleware
-/*
+
 app.use(function (req, res, next) {
   console.log('Time:', Date.now());
   console.log(req.headers);
@@ -95,7 +95,6 @@ app.use(function (req, res, next) {
     }
   }
 });
-*/
 
 
 // Routing

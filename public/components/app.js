@@ -22,7 +22,7 @@ databaseApp.config(['$routeProvider',
         templateUrl: 'components/dashboard/dashboard.template.html',
         controller: 'DashboardCtrl'
       }).
-      when('/browser', {
+      when('/browse', {
         templateUrl: 'components/browser/browser.template.html',
         controller: 'BrowserCtrl'
       }).
